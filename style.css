@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header Styles - Element Selector */
+header {
+    background-color: #4a6fa5;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* ID Selector */
+#main-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Class Selector */
+.subtitle {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #4a6fa5;
+    padding-bottom: 0.5rem;
+}
+
+/* Highlight Class */
+.highlight {
+    background-color: #ffeeba;
+    padding: 10px;
+    border-left: 4px solid #ffc107;
+    font-weight: bold;
+}
+
+/* Image Styling */
+.image-container {
+    text-align: center;
+}
+
+.featured-image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #4a6fa5;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.featured-image:hover {
+    transform: scale(1.02);
+}
+
+.image-caption {
+    font-style: italic;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.footer-note {
+    font-size: 0.9rem;
+    color: #adb5bd;
+}
